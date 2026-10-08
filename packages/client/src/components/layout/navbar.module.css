@@ -1,0 +1,36 @@
+nav {
+    display: flex;
+    background-color: darkblue;
+    color: white;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.searchContainer input {
+    border: none;
+    background-color: rgb(45, 45, 154);
+    padding: 0.5em 0.2em;
+}
+
+.searchContainer input:focus {
+    border: none;
+    outline: none;
+    background-color: rgb(92, 92, 175);
+    border-radius: 2px;
+}
+
+.navBtnContainer ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.userBtnContainer {
+    gap: 15px;
+    display: flex;
+}
+
+.userBtns {
+    display: none;
+}
